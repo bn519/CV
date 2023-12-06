@@ -13,7 +13,7 @@ function submitForm(e) {
    
     fetch(apiUrl, {
         method: 'GET',
-        headers: { 'X-Api-Key': apiKey},
+        headers: { 'X-Api-Key': YOUR_API_KEY},
         contentType: 'application/json'
     })
     .then(response => response.json())
