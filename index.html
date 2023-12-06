@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <h1>Currency Converter</h1>
+    <form id="myform" action="" method="post">
+        <input type="number" class="form-control" id="amount" placeholder="Enter in amount ($)" />
+        <select class="form-control" id="currency" name="currency">
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="KRW">KRW</option>
+            <option value="CAD">CAD</option>
+        </select>
+        <button id="click">Convert</button>
+    </form>
+  <p><span id="display"></span>
+    <script src="exchange.js"></script>
+    <script src="apiKey.js"></script>
+</body>
+
+</html>

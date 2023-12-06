@@ -1,0 +1,12 @@
+{
+    "name": "Exchange Rates",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Extension to convert currencies to USD",
+    "action": {
+        "default_icon": "cover.png",
+        "default_popup": "index.html"
+    }
+
+}
+
