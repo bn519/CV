@@ -18,10 +18,7 @@ function submitForm(e) {
     })
     .then(response => response.json())
     .then(data => {
-        //alert(JSON.stringify(data));
-        //alert(data.exchange_rate);
         var rate = data.exchange_rate;
-        //alert(rate);
         let resultPrice = amount * rate;
         document.getElementById("display").innerHTML = `${amount} USD = ${resultPrice.toFixed(2)} ${currency}`;
     })
